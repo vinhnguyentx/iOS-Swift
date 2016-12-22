@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F2071FA1CAD75C5009F9AFC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1F2071F91CAD75C5009F9AFC /* Podfile */; };
+		1F83DFB11CB32B1200CCEF71 /* MapTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F83DFB01CB32B1200CCEF71 /* MapTasks.swift */; };
+		988CB4A48CFFE4FCA8A25FE8 /* Pods_HopJocky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F99065BA8BB6610FA0587C /* Pods_HopJocky.framework */; };
+		ED3A0DA01CB5975B00ADA574 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0D961CB5975B00ADA574 /* ProfileViewController.swift */; };
+		ED3A0DA11CB5975B00ADA574 /* BeerchievementsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0D971CB5975B00ADA574 /* BeerchievementsCollectionViewController.swift */; };
+		ED3A0DA21CB5975B00ADA574 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0D981CB5975B00ADA574 /* CreateAccountViewController.swift */; };
+		ED3A0DA31CB5975B00ADA574 /* BeerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0D991CB5975B00ADA574 /* BeerDetailViewController.swift */; };
+		ED3A0DA41CB5975B00ADA574 /* BeerchievementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0D9A1CB5975B00ADA574 /* BeerchievementCollectionViewCell.swift */; };
+		ED3A0DA51CB5975B00ADA574 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0D9B1CB5975B00ADA574 /* LoginViewController.swift */; };
+		ED3A0DA61CB5975B00ADA574 /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0D9C1CB5975B00ADA574 /* BarTableViewController.swift */; };
+		ED3A0DA81CB5975B00ADA574 /* BarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0D9E1CB5975B00ADA574 /* BarDetailViewController.swift */; };
+		ED3A0DAF1CB5979900ADA574 /* Beerchievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0DAA1CB5979900ADA574 /* Beerchievements.swift */; };
+		ED3A0DB01CB5979900ADA574 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0DAB1CB5979900ADA574 /* User.swift */; };
+		ED3A0DB11CB5979900ADA574 /* Beerchievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0DAC1CB5979900ADA574 /* Beerchievement.swift */; };
+		ED3A0DB21CB5979900ADA574 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0DAD1CB5979900ADA574 /* Beer.swift */; };
+		ED3A0DB31CB5979900ADA574 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0DAE1CB5979900ADA574 /* Bar.swift */; };
+		ED3A0DB51CB597B500ADA574 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0DB41CB597B500ADA574 /* BaseService.swift */; };
+		ED3A0DBD1CB5985800ADA574 /* rain.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DB81CB5985800ADA574 /* rain.png */; };
+		ED3A0DBE1CB5985800ADA574 /* drag.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DB91CB5985800ADA574 /* drag.png */; };
+		ED3A0DBF1CB5985800ADA574 /* 5 O'clock.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DBA1CB5985800ADA574 /* 5 O'clock.png */; };
+		ED3A0DC01CB5985800ADA574 /* dirty.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DBB1CB5985800ADA574 /* dirty.png */; };
+		ED3A0DC11CB5985800ADA574 /* newb.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DBC1CB5985800ADA574 /* newb.png */; };
+		ED3A0DC41CB5986500ADA574 /* firstBeer.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DC21CB5986500ADA574 /* firstBeer.png */; };
+		ED3A0DC51CB5986500ADA574 /* hopper.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DC31CB5986500ADA574 /* hopper.png */; };
+		ED3A0DC71CB5992F00ADA574 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0DC61CB5992F00ADA574 /* MenuTableViewController.swift */; };
+		ED3A0DC91CB6100700ADA574 /* ReviewWriterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0DC81CB6100700ADA574 /* ReviewWriterViewController.swift */; };
+		ED3A0DCD1CB71D9900ADA574 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0DCC1CB71D9900ADA574 /* Review.swift */; };
+		ED3A0DCF1CB72C8000ADA574 /* ReviewReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0DCE1CB72C8000ADA574 /* ReviewReaderViewController.swift */; };
+		ED3A0DD21CB73A1100ADA574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DD01CB73A1100ADA574 /* Main.storyboard */; };
+		ED3A0DD71CB827A900ADA574 /* emptyBeer.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DD31CB827A900ADA574 /* emptyBeer.png */; };
+		ED3A0DD81CB827A900ADA574 /* halfBeer.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DD41CB827A900ADA574 /* halfBeer.png */; };
+		ED3A0DD91CB827A900ADA574 /* threeQuaterBeer.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DD51CB827A900ADA574 /* threeQuaterBeer.png */; };
+		ED3A0DDA1CB827A900ADA574 /* fullBeer.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3A0DD61CB827A900ADA574 /* fullBeer.png */; };
+		ED3A0DDC1CB86F1C00ADA574 /* BarHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0DDB1CB86F1C00ADA574 /* BarHistoryTableViewController.swift */; };
+		ED8EE7501CD044F100B2C403 /* BeersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8EE74F1CD044F100B2C403 /* BeersTableViewController.swift */; };
+		ED8EE7521CD04DC900B2C403 /* BeersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8EE7511CD04DC900B2C403 /* BeersDetailViewController.swift */; };
+		ED8EE78F1CD27EF200B2C403 /* Login As User-50.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE7871CD27EF200B2C403 /* Login As User-50.png */; };
+		ED8EE7911CD27EF200B2C403 /* Map Marker-50.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE7891CD27EF200B2C403 /* Map Marker-50.png */; };
+		ED8EE7931CD27EF200B2C403 /* Shop-50.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE78B1CD27EF200B2C403 /* Shop-50.png */; };
+		ED8EE7951CD27EF200B2C403 /* Beer-50.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE78D1CD27EF200B2C403 /* Beer-50.png */; };
+		ED8EE7971CD285B600B2C403 /* beerBack.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE7961CD285B600B2C403 /* beerBack.png */; };
+		ED8EE7991CD2865300B2C403 /* beerBack2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE7981CD2865300B2C403 /* beerBack2.png */; };
+		ED8EE79C1CD288E200B2C403 /* beerLittleHead.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE79A1CD288E200B2C403 /* beerLittleHead.png */; };
+		ED8EE79D1CD288E200B2C403 /* beerBigHead.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE79B1CD288E200B2C403 /* beerBigHead.png */; };
+		ED8EE79F1CD2896900B2C403 /* beerLittleMoreHead.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE79E1CD2896900B2C403 /* beerLittleMoreHead.png */; };
+		ED8EE7A11CD2994200B2C403 /* beercoin.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE7A01CD2994200B2C403 /* beercoin.png */; };
+		ED8EE7A31CD320B200B2C403 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE7A21CD320B200B2C403 /* Images.xcassets */; };
+		ED8EE7A71CD40DF100B2C403 /* ShowBarsFromMapTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8EE7A61CD40DF100B2C403 /* ShowBarsFromMapTableViewController.swift */; };
+		ED8EE7AB1CD513B500B2C403 /* BeerHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8EE7AA1CD513B500B2C403 /* BeerHistoryTableViewController.swift */; };
+		ED8EE7B61CD6AC0700B2C403 /* The Regular.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE7B41CD6AC0700B2C403 /* The Regular.png */; };
+		ED8EE7B71CD6AC0700B2C403 /* The Local.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8EE7B51CD6AC0700B2C403 /* The Local.png */; };
+		ED8EE7B91CD6BCCD00B2C403 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8EE7B81CD6BCCD00B2C403 /* SettingsViewController.swift */; };
+		EDCF43D51C912EFD004A6A6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF43D41C912EFD004A6A6C /* AppDelegate.swift */; };
+		EDCF43DD1C912EFD004A6A6C /* HopJocky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDCF43DB1C912EFD004A6A6C /* HopJocky.xcdatamodeld */; };
+		EDCF43E21C912EFD004A6A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCF43E01C912EFD004A6A6C /* LaunchScreen.storyboard */; };
+		EDCF44251CA1FD5D004A6A6C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF44241CA1FD5D004A6A6C /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F2071F91CAD75C5009F9AFC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F83DFB01CB32B1200CCEF71 /* MapTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTasks.swift; sourceTree = "<group>"; };
+		61F99065BA8BB6610FA0587C /* Pods_HopJocky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HopJocky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F00BC931FB1A166B28656D0 /* Pods-HopJocky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopJocky.release.xcconfig"; path = "Pods/Target Support Files/Pods-HopJocky/Pods-HopJocky.release.xcconfig"; sourceTree = "<group>"; };
+		BA73A719F4C9D3B767A9FF82 /* Pods-HopJocky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopJocky.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HopJocky/Pods-HopJocky.debug.xcconfig"; sourceTree = "<group>"; };
+		ED3A0D961CB5975B00ADA574 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ED3A0D971CB5975B00ADA574 /* BeerchievementsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerchievementsCollectionViewController.swift; sourceTree = "<group>"; };
+		ED3A0D981CB5975B00ADA574 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		ED3A0D991CB5975B00ADA574 /* BeerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerDetailViewController.swift; sourceTree = "<group>"; };
+		ED3A0D9A1CB5975B00ADA574 /* BeerchievementCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerchievementCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED3A0D9B1CB5975B00ADA574 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ED3A0D9C1CB5975B00ADA574 /* BarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTableViewController.swift; sourceTree = "<group>"; };
+		ED3A0D9E1CB5975B00ADA574 /* BarDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarDetailViewController.swift; sourceTree = "<group>"; };
+		ED3A0DAA1CB5979900ADA574 /* Beerchievements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beerchievements.swift; sourceTree = "<group>"; };
+		ED3A0DAB1CB5979900ADA574 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ED3A0DAC1CB5979900ADA574 /* Beerchievement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beerchievement.swift; sourceTree = "<group>"; };
+		ED3A0DAD1CB5979900ADA574 /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		ED3A0DAE1CB5979900ADA574 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		ED3A0DB41CB597B500ADA574 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		ED3A0DB81CB5985800ADA574 /* rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain.png; sourceTree = "<group>"; };
+		ED3A0DB91CB5985800ADA574 /* drag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drag.png; sourceTree = "<group>"; };
+		ED3A0DBA1CB5985800ADA574 /* 5 O'clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5 O'clock.png"; sourceTree = "<group>"; };
+		ED3A0DBB1CB5985800ADA574 /* dirty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirty.png; sourceTree = "<group>"; };
+		ED3A0DBC1CB5985800ADA574 /* newb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newb.png; sourceTree = "<group>"; };
+		ED3A0DC21CB5986500ADA574 /* firstBeer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstBeer.png; sourceTree = "<group>"; };
+		ED3A0DC31CB5986500ADA574 /* hopper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hopper.png; sourceTree = "<group>"; };
+		ED3A0DC61CB5992F00ADA574 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		ED3A0DC81CB6100700ADA574 /* ReviewWriterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewWriterViewController.swift; sourceTree = "<group>"; };
+		ED3A0DCC1CB71D9900ADA574 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		ED3A0DCE1CB72C8000ADA574 /* ReviewReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewReaderViewController.swift; sourceTree = "<group>"; };
+		ED3A0DD11CB73A1100ADA574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HopJocky/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED3A0DD31CB827A900ADA574 /* emptyBeer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyBeer.png; sourceTree = "<group>"; };
+		ED3A0DD41CB827A900ADA574 /* halfBeer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = halfBeer.png; sourceTree = "<group>"; };
+		ED3A0DD51CB827A900ADA574 /* threeQuaterBeer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = threeQuaterBeer.png; sourceTree = "<group>"; };
+		ED3A0DD61CB827A900ADA574 /* fullBeer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullBeer.png; sourceTree = "<group>"; };
+		ED3A0DDB1CB86F1C00ADA574 /* BarHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarHistoryTableViewController.swift; sourceTree = "<group>"; };
+		ED8EE74F1CD044F100B2C403 /* BeersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeersTableViewController.swift; sourceTree = "<group>"; };
+		ED8EE7511CD04DC900B2C403 /* BeersDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeersDetailViewController.swift; sourceTree = "<group>"; };
+		ED8EE7871CD27EF200B2C403 /* Login As User-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login As User-50.png"; sourceTree = "<group>"; };
+		ED8EE7891CD27EF200B2C403 /* Map Marker-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map Marker-50.png"; sourceTree = "<group>"; };
+		ED8EE78B1CD27EF200B2C403 /* Shop-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shop-50.png"; sourceTree = "<group>"; };
+		ED8EE78D1CD27EF200B2C403 /* Beer-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-50.png"; sourceTree = "<group>"; };
+		ED8EE7961CD285B600B2C403 /* beerBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beerBack.png; sourceTree = "<group>"; };
+		ED8EE7981CD2865300B2C403 /* beerBack2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beerBack2.png; sourceTree = "<group>"; };
+		ED8EE79A1CD288E200B2C403 /* beerLittleHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beerLittleHead.png; sourceTree = "<group>"; };
+		ED8EE79B1CD288E200B2C403 /* beerBigHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beerBigHead.png; sourceTree = "<group>"; };
+		ED8EE79E1CD2896900B2C403 /* beerLittleMoreHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beerLittleMoreHead.png; sourceTree = "<group>"; };
+		ED8EE7A01CD2994200B2C403 /* beercoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beercoin.png; sourceTree = "<group>"; };
+		ED8EE7A21CD320B200B2C403 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED8EE7A61CD40DF100B2C403 /* ShowBarsFromMapTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowBarsFromMapTableViewController.swift; sourceTree = "<group>"; };
+		ED8EE7A81CD43A8700B2C403 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ED8EE7AA1CD513B500B2C403 /* BeerHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerHistoryTableViewController.swift; sourceTree = "<group>"; };
+		ED8EE7B41CD6AC0700B2C403 /* The Regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Regular.png"; sourceTree = "<group>"; };
+		ED8EE7B51CD6AC0700B2C403 /* The Local.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Local.png"; sourceTree = "<group>"; };
+		ED8EE7B81CD6BCCD00B2C403 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EDCF43D11C912EFD004A6A6C /* HopJocky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopJocky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCF43D41C912EFD004A6A6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDCF43DC1C912EFD004A6A6C /* HopJocky.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HopJocky.xcdatamodel; sourceTree = "<group>"; };
+		EDCF43E11C912EFD004A6A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDCF43E31C912EFD004A6A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCF44241CA1FD5D004A6A6C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCF43CE1C912EFD004A6A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988CB4A48CFFE4FCA8A25FE8 /* Pods_HopJocky.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ED1D10CA540AE607A23F5A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED8EE7A81CD43A8700B2C403 /* CoreLocation.framework */,
+				61F99065BA8BB6610FA0587C /* Pods_HopJocky.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC2207350B4F5FDB8F8F8528 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA73A719F4C9D3B767A9FF82 /* Pods-HopJocky.debug.xcconfig */,
+				6F00BC931FB1A166B28656D0 /* Pods-HopJocky.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED3A0DB71CB5980E00ADA574 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ED8EE7B41CD6AC0700B2C403 /* The Regular.png */,
+				ED8EE7B51CD6AC0700B2C403 /* The Local.png */,
+				ED8EE7A01CD2994200B2C403 /* beercoin.png */,
+				ED8EE79E1CD2896900B2C403 /* beerLittleMoreHead.png */,
+				ED8EE79A1CD288E200B2C403 /* beerLittleHead.png */,
+				ED8EE79B1CD288E200B2C403 /* beerBigHead.png */,
+				ED8EE7981CD2865300B2C403 /* beerBack2.png */,
+				ED8EE7961CD285B600B2C403 /* beerBack.png */,
+				ED8EE7871CD27EF200B2C403 /* Login As User-50.png */,
+				ED8EE7891CD27EF200B2C403 /* Map Marker-50.png */,
+				ED8EE78B1CD27EF200B2C403 /* Shop-50.png */,
+				ED8EE78D1CD27EF200B2C403 /* Beer-50.png */,
+				ED3A0DD31CB827A900ADA574 /* emptyBeer.png */,
+				ED3A0DD41CB827A900ADA574 /* halfBeer.png */,
+				ED3A0DD51CB827A900ADA574 /* threeQuaterBeer.png */,
+				ED3A0DD61CB827A900ADA574 /* fullBeer.png */,
+				ED3A0DC21CB5986500ADA574 /* firstBeer.png */,
+				ED3A0DC31CB5986500ADA574 /* hopper.png */,
+				ED3A0DB81CB5985800ADA574 /* rain.png */,
+				ED3A0DB91CB5985800ADA574 /* drag.png */,
+				ED3A0DBA1CB5985800ADA574 /* 5 O'clock.png */,
+				ED3A0DBB1CB5985800ADA574 /* dirty.png */,
+				ED3A0DBC1CB5985800ADA574 /* newb.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EDCF43C81C912EFD004A6A6C = {
+			isa = PBXGroup;
+			children = (
+				1F2071F91CAD75C5009F9AFC /* Podfile */,
+				ED3A0DD01CB73A1100ADA574 /* Main.storyboard */,
+				EDCF43D31C912EFD004A6A6C /* HopJocky */,
+				EDCF43D21C912EFD004A6A6C /* Products */,
+				BC2207350B4F5FDB8F8F8528 /* Pods */,
+				9ED1D10CA540AE607A23F5A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCF43D21C912EFD004A6A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCF43D11C912EFD004A6A6C /* HopJocky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDCF43D31C912EFD004A6A6C /* HopJocky */ = {
+			isa = PBXGroup;
+			children = (
+				EDCF43D41C912EFD004A6A6C /* AppDelegate.swift */,
+				ED3A0DB41CB597B500ADA574 /* BaseService.swift */,
+				EDCF44261CA23731004A6A6C /* Model */,
+				EDCF44271CA2374D004A6A6C /* ViewControllers */,
+				ED3A0DB71CB5980E00ADA574 /* Images */,
+				EDCF43E01C912EFD004A6A6C /* LaunchScreen.storyboard */,
+				EDCF43E31C912EFD004A6A6C /* Info.plist */,
+				EDCF43DB1C912EFD004A6A6C /* HopJocky.xcdatamodeld */,
+				ED8EE7A21CD320B200B2C403 /* Images.xcassets */,
+			);
+			path = HopJocky;
+			sourceTree = "<group>";
+		};
+		EDCF44261CA23731004A6A6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A0DAB1CB5979900ADA574 /* User.swift */,
+				ED3A0DAD1CB5979900ADA574 /* Beer.swift */,
+				ED3A0DAE1CB5979900ADA574 /* Bar.swift */,
+				ED3A0DAC1CB5979900ADA574 /* Beerchievement.swift */,
+				ED3A0DAA1CB5979900ADA574 /* Beerchievements.swift */,
+				ED3A0DCC1CB71D9900ADA574 /* Review.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EDCF44271CA2374D004A6A6C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A0D9B1CB5975B00ADA574 /* LoginViewController.swift */,
+				ED3A0D981CB5975B00ADA574 /* CreateAccountViewController.swift */,
+				ED3A0D961CB5975B00ADA574 /* ProfileViewController.swift */,
+				ED8EE7B81CD6BCCD00B2C403 /* SettingsViewController.swift */,
+				ED3A0D971CB5975B00ADA574 /* BeerchievementsCollectionViewController.swift */,
+				ED3A0D9A1CB5975B00ADA574 /* BeerchievementCollectionViewCell.swift */,
+				ED3A0D9C1CB5975B00ADA574 /* BarTableViewController.swift */,
+				ED3A0DDB1CB86F1C00ADA574 /* BarHistoryTableViewController.swift */,
+				ED8EE7AA1CD513B500B2C403 /* BeerHistoryTableViewController.swift */,
+				ED3A0D9E1CB5975B00ADA574 /* BarDetailViewController.swift */,
+				ED3A0DC81CB6100700ADA574 /* ReviewWriterViewController.swift */,
+				ED3A0DCE1CB72C8000ADA574 /* ReviewReaderViewController.swift */,
+				ED3A0DC61CB5992F00ADA574 /* MenuTableViewController.swift */,
+				ED3A0D991CB5975B00ADA574 /* BeerDetailViewController.swift */,
+				ED8EE74F1CD044F100B2C403 /* BeersTableViewController.swift */,
+				ED8EE7511CD04DC900B2C403 /* BeersDetailViewController.swift */,
+				EDCF44241CA1FD5D004A6A6C /* MapViewController.swift */,
+				1F83DFB01CB32B1200CCEF71 /* MapTasks.swift */,
+				ED8EE7A61CD40DF100B2C403 /* ShowBarsFromMapTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDCF43D01C912EFD004A6A6C /* HopJocky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCF43E61C912EFD004A6A6C /* Build configuration list for PBXNativeTarget "HopJocky" */;
+			buildPhases = (
+				DFEB24EFBC447433BDCB0AA3 /* 📦 Check Pods Manifest.lock */,
+				EDCF43CD1C912EFD004A6A6C /* Sources */,
+				EDCF43CE1C912EFD004A6A6C /* Frameworks */,
+				EDCF43CF1C912EFD004A6A6C /* Resources */,
+				CC01BA656472EF987F41E0E4 /* 📦 Embed Pods Frameworks */,
+				EB0EFBE74A66DC40D10F9D1D /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HopJocky;
+			productName = HopJocky;
+			productReference = EDCF43D11C912EFD004A6A6C /* HopJocky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCF43C91C912EFD004A6A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cs378;
+				TargetAttributes = {
+					EDCF43D01C912EFD004A6A6C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P29K39AWYV;
+					};
+				};
+			};
+			buildConfigurationList = EDCF43CC1C912EFD004A6A6C /* Build configuration list for PBXProject "HopJocky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDCF43C81C912EFD004A6A6C;
+			productRefGroup = EDCF43D21C912EFD004A6A6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCF43D01C912EFD004A6A6C /* HopJocky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDCF43CF1C912EFD004A6A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8EE78F1CD27EF200B2C403 /* Login As User-50.png in Resources */,
+				ED8EE7991CD2865300B2C403 /* beerBack2.png in Resources */,
+				ED3A0DC01CB5985800ADA574 /* dirty.png in Resources */,
+				ED8EE7A31CD320B200B2C403 /* Images.xcassets in Resources */,
+				ED3A0DD71CB827A900ADA574 /* emptyBeer.png in Resources */,
+				EDCF43E21C912EFD004A6A6C /* LaunchScreen.storyboard in Resources */,
+				ED3A0DC41CB5986500ADA574 /* firstBeer.png in Resources */,
+				ED3A0DC11CB5985800ADA574 /* newb.png in Resources */,
+				ED8EE7911CD27EF200B2C403 /* Map Marker-50.png in Resources */,
+				ED8EE7971CD285B600B2C403 /* beerBack.png in Resources */,
+				ED3A0DBD1CB5985800ADA574 /* rain.png in Resources */,
+				ED3A0DD81CB827A900ADA574 /* halfBeer.png in Resources */,
+				ED3A0DD21CB73A1100ADA574 /* Main.storyboard in Resources */,
+				ED8EE79C1CD288E200B2C403 /* beerLittleHead.png in Resources */,
+				ED3A0DD91CB827A900ADA574 /* threeQuaterBeer.png in Resources */,
+				ED8EE79D1CD288E200B2C403 /* beerBigHead.png in Resources */,
+				ED8EE7931CD27EF200B2C403 /* Shop-50.png in Resources */,
+				ED8EE79F1CD2896900B2C403 /* beerLittleMoreHead.png in Resources */,
+				ED3A0DDA1CB827A900ADA574 /* fullBeer.png in Resources */,
+				1F2071FA1CAD75C5009F9AFC /* Podfile in Resources */,
+				ED8EE7B71CD6AC0700B2C403 /* The Local.png in Resources */,
+				ED3A0DC51CB5986500ADA574 /* hopper.png in Resources */,
+				ED8EE7B61CD6AC0700B2C403 /* The Regular.png in Resources */,
+				ED3A0DBE1CB5985800ADA574 /* drag.png in Resources */,
+				ED8EE7951CD27EF200B2C403 /* Beer-50.png in Resources */,
+				ED3A0DBF1CB5985800ADA574 /* 5 O'clock.png in Resources */,
+				ED8EE7A11CD2994200B2C403 /* beercoin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CC01BA656472EF987F41E0E4 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HopJocky/Pods-HopJocky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFEB24EFBC447433BDCB0AA3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0EFBE74A66DC40D10F9D1D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HopJocky/Pods-HopJocky-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCF43CD1C912EFD004A6A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A0DB31CB5979900ADA574 /* Bar.swift in Sources */,
+				ED8EE7A71CD40DF100B2C403 /* ShowBarsFromMapTableViewController.swift in Sources */,
+				ED3A0DA21CB5975B00ADA574 /* CreateAccountViewController.swift in Sources */,
+				ED3A0DB21CB5979900ADA574 /* Beer.swift in Sources */,
+				ED3A0DCF1CB72C8000ADA574 /* ReviewReaderViewController.swift in Sources */,
+				ED3A0DDC1CB86F1C00ADA574 /* BarHistoryTableViewController.swift in Sources */,
+				ED3A0DA31CB5975B00ADA574 /* BeerDetailViewController.swift in Sources */,
+				ED3A0DA11CB5975B00ADA574 /* BeerchievementsCollectionViewController.swift in Sources */,
+				ED3A0DB01CB5979900ADA574 /* User.swift in Sources */,
+				EDCF43D51C912EFD004A6A6C /* AppDelegate.swift in Sources */,
+				ED3A0DC71CB5992F00ADA574 /* MenuTableViewController.swift in Sources */,
+				ED3A0DB51CB597B500ADA574 /* BaseService.swift in Sources */,
+				1F83DFB11CB32B1200CCEF71 /* MapTasks.swift in Sources */,
+				ED8EE7AB1CD513B500B2C403 /* BeerHistoryTableViewController.swift in Sources */,
+				ED3A0DAF1CB5979900ADA574 /* Beerchievements.swift in Sources */,
+				ED3A0DA01CB5975B00ADA574 /* ProfileViewController.swift in Sources */,
+				EDCF43DD1C912EFD004A6A6C /* HopJocky.xcdatamodeld in Sources */,
+				EDCF44251CA1FD5D004A6A6C /* MapViewController.swift in Sources */,
+				ED3A0DA51CB5975B00ADA574 /* LoginViewController.swift in Sources */,
+				ED8EE7521CD04DC900B2C403 /* BeersDetailViewController.swift in Sources */,
+				ED8EE7501CD044F100B2C403 /* BeersTableViewController.swift in Sources */,
+				ED3A0DC91CB6100700ADA574 /* ReviewWriterViewController.swift in Sources */,
+				ED3A0DB11CB5979900ADA574 /* Beerchievement.swift in Sources */,
+				ED8EE7B91CD6BCCD00B2C403 /* SettingsViewController.swift in Sources */,
+				ED3A0DCD1CB71D9900ADA574 /* Review.swift in Sources */,
+				ED3A0DA41CB5975B00ADA574 /* BeerchievementCollectionViewCell.swift in Sources */,
+				ED3A0DA61CB5975B00ADA574 /* BarTableViewController.swift in Sources */,
+				ED3A0DA81CB5975B00ADA574 /* BarDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED3A0DD01CB73A1100ADA574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3A0DD11CB73A1100ADA574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDCF43E01C912EFD004A6A6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCF43E11C912EFD004A6A6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDCF43E41C912EFD004A6A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDCF43E51C912EFD004A6A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDCF43E71C912EFD004A6A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA73A719F4C9D3B767A9FF82 /* Pods-HopJocky.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HopJocky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs378.matt2union;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDCF43E81C912EFD004A6A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F00BC931FB1A166B28656D0 /* Pods-HopJocky.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HopJocky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs378.matt2union;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCF43CC1C912EFD004A6A6C /* Build configuration list for PBXProject "HopJocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCF43E41C912EFD004A6A6C /* Debug */,
+				EDCF43E51C912EFD004A6A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCF43E61C912EFD004A6A6C /* Build configuration list for PBXNativeTarget "HopJocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCF43E71C912EFD004A6A6C /* Debug */,
+				EDCF43E81C912EFD004A6A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDCF43DB1C912EFD004A6A6C /* HopJocky.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDCF43DC1C912EFD004A6A6C /* HopJocky.xcdatamodel */,
+			);
+			currentVersion = EDCF43DC1C912EFD004A6A6C /* HopJocky.xcdatamodel */;
+			path = HopJocky.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDCF43C91C912EFD004A6A6C /* Project object */;
+}
